@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04871C2C230A2569004BCD60 /* UIFont+FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04871C2B230A2569004BCD60 /* UIFont+FontFamily.swift */; };
+		0491F3CF230A3016000A9EC5 /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491F3CE230A3016000A9EC5 /* FontFamily.swift */; };
 		04C177F722E0030B00C38BA6 /* JLSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C177ED22E0030B00C38BA6 /* JLSwiftUtilities.framework */; };
 		04C177FC22E0030B00C38BA6 /* JLSwiftUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C177FB22E0030B00C38BA6 /* JLSwiftUtilitiesTests.swift */; };
 		04C177FE22E0030B00C38BA6 /* JLSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C177F022E0030B00C38BA6 /* JLSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04871C2B230A2569004BCD60 /* UIFont+FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+FontFamily.swift"; sourceTree = "<group>"; };
+		0491F3CE230A3016000A9EC5 /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
 		04C177ED22E0030B00C38BA6 /* JLSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C177F022E0030B00C38BA6 /* JLSwiftUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSwiftUtilities.h; sourceTree = "<group>"; };
 		04C177F122E0030B00C38BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 				04C1780822E0047300C38BA6 /* UIView+Extensions.swift */,
 				04C1780A22E005AF00C38BA6 /* UIImage+Extensions.swift */,
 				04C1780D22E0066400C38BA6 /* Array+Extensions.swift */,
+				04871C2B230A2569004BCD60 /* UIFont+FontFamily.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				04C1781022E008C200C38BA6 /* Haptic.swift */,
+				0491F3CE230A3016000A9EC5 /* FontFamily.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -223,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0491F3CF230A3016000A9EC5 /* FontFamily.swift in Sources */,
 				04C1781122E008C200C38BA6 /* Haptic.swift in Sources */,
 				04C1780922E0047400C38BA6 /* UIView+Extensions.swift in Sources */,
+				04871C2C230A2569004BCD60 /* UIFont+FontFamily.swift in Sources */,
 				04C1780E22E0066400C38BA6 /* Array+Extensions.swift in Sources */,
 				04C1780B22E005AF00C38BA6 /* UIImage+Extensions.swift in Sources */,
 			);
