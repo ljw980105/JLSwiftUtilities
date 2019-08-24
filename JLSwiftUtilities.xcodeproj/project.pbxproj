@@ -16,6 +16,7 @@
 		04C1780B22E005AF00C38BA6 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1780A22E005AF00C38BA6 /* UIImage+Extensions.swift */; };
 		04C1780E22E0066400C38BA6 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1780D22E0066400C38BA6 /* Array+Extensions.swift */; };
 		04C1781122E008C200C38BA6 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1781022E008C200C38BA6 /* Haptic.swift */; };
+		04F7FD612310D33400820176 /* UITabBarController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7FD602310D33400820176 /* UITabBarController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		04C1780A22E005AF00C38BA6 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		04C1780D22E0066400C38BA6 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		04C1781022E008C200C38BA6 /* Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		04F7FD602310D33400820176 /* UITabBarController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				04C1780A22E005AF00C38BA6 /* UIImage+Extensions.swift */,
 				04C1780D22E0066400C38BA6 /* Array+Extensions.swift */,
 				04871C2B230A2569004BCD60 /* UIFont+FontFamily.swift */,
+				04F7FD602310D33400820176 /* UITabBarController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				04C1781122E008C200C38BA6 /* Haptic.swift in Sources */,
 				04C1780922E0047400C38BA6 /* UIView+Extensions.swift in Sources */,
 				04871C2C230A2569004BCD60 /* UIFont+FontFamily.swift in Sources */,
+				04F7FD612310D33400820176 /* UITabBarController+Extensions.swift in Sources */,
 				04C1780E22E0066400C38BA6 /* Array+Extensions.swift in Sources */,
 				04C1780B22E005AF00C38BA6 /* UIImage+Extensions.swift in Sources */,
 			);

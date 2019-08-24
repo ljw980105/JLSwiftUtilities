@@ -35,6 +35,13 @@ class func imageFrom(color: UIColor, at size: CGSize = default) -> UIImage?
 ```
 Generate an image from a color, at the specified size.  The size defaults to 500.
 
+### `UITabBarController+Extensions`
+
+```swift
+func removeText()
+```
+Remove all texts from the tab bar and then move the icon down. The resulting tab bar looks like Instagram's.
+
 ## Classes
 
 ### `Haptic`
