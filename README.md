@@ -42,6 +42,15 @@ func removeText()
 ```
 Remove all texts from the tab bar and then move the icon down. The resulting tab bar looks like Instagram's.
 
+## Views
+
+### `ColorPickerView`
+A simple but effective color picker.
+
+<p align = "center">
+    <img width = "300" height = "305" src = "Resources/ColorPicker.jpeg">
+</p>
+
 ## Classes
 
 ### `Haptic`
