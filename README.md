@@ -47,7 +47,7 @@ Remove all texts from the tab bar and then move the icon down. The resulting tab
 ### `ColorPickerView`
 A simple but effective color picker.
 
-<p align = "center">
+<p align = "left">
     <img width = "300" height = "305" src = "Resources/ColorPicker.jpeg">
 </p>
 

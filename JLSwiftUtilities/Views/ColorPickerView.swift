@@ -21,8 +21,8 @@ public protocol ColorPickerDelegate: class {
 public class ColorPicker: UIView {
     
     public weak var delegate: ColorPickerDelegate?
-    let saturationExponentTop: Float = 2.0
-    let saturationExponentBottom: Float = 1.3
+    private let saturationExponentTop: Float = 2.0
+    private let saturationExponentBottom: Float = 1.3
     
     @IBInspectable public var elementSize: CGFloat = 1.0 {
         didSet {
@@ -62,7 +62,7 @@ public class ColorPicker: UIView {
                 let hue = x / rect.width
                 let color = UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: 1.0)
                 context?.setFillColor(color.cgColor)
-                context?.fill(CGRect(x:x, y:y, width: elementSize, height: elementSize))
+                context?.fill(CGRect(x: x, y: y, width: elementSize, height: elementSize))
             }
         }
     }
