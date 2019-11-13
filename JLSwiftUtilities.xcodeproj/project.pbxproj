@@ -27,6 +27,9 @@
 		0470BE7D237B92AE0080ADB7 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470BE75237B92AE0080ADB7 /* UIImage+Extensions.swift */; };
 		0470BE7E237B92AE0080ADB7 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470BE77237B92AE0080ADB7 /* ColorPickerView.swift */; };
 		0470BE7F237B92AE0080ADB7 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470BE79237B92AE0080ADB7 /* Haptic.swift */; };
+		04B7634A237BAB06007FA8F7 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B76346237BAB06007FA8F7 /* PageViewController.swift */; };
+		04B7634B237BAB06007FA8F7 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B76347237BAB06007FA8F7 /* PageContentViewController.swift */; };
+		04B7634C237BAB06007FA8F7 /* PageContentDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B76349237BAB06007FA8F7 /* PageContentDataSet.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_44 /* JLSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "JLSwiftUtilities::JLSwiftUtilities::Product" /* JLSwiftUtilities.framework */; };
@@ -56,6 +59,10 @@
 		0470BE75237B92AE0080ADB7 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		0470BE77237B92AE0080ADB7 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		0470BE79237B92AE0080ADB7 /* Haptic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		04B76346237BAB06007FA8F7 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		04B76347237BAB06007FA8F7 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		04B76348237BAB06007FA8F7 /* PageContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageContentViewController.xib; sourceTree = "<group>"; };
+		04B76349237BAB06007FA8F7 /* PageContentDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentDataSet.swift; sourceTree = "<group>"; };
 		"JLSwiftUtilities::JLSwiftUtilities::Product" /* JLSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JLSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"JLSwiftUtilities::JLSwiftUtilitiesTests::Product" /* JLSwiftUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = JLSwiftUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
@@ -96,6 +103,7 @@
 		0470BE76237B92AE0080ADB7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04B76345237BAAD6007FA8F7 /* Page Views */,
 				0470BE77237B92AE0080ADB7 /* ColorPickerView.swift */,
 			);
 			path = Views;
@@ -107,6 +115,17 @@
 				0470BE79237B92AE0080ADB7 /* Haptic.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		04B76345237BAAD6007FA8F7 /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				04B76349237BAB06007FA8F7 /* PageContentDataSet.swift */,
+				04B76347237BAB06007FA8F7 /* PageContentViewController.swift */,
+				04B76348237BAB06007FA8F7 /* PageContentViewController.xib */,
+				04B76346237BAB06007FA8F7 /* PageViewController.swift */,
+			);
+			path = "Page Views";
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -135,7 +154,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -144,7 +163,6 @@
 				OBJ_14 /* Products */,
 				OBJ_17 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -232,7 +250,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,11 +269,14 @@
 			buildActionMask = 0;
 			files = (
 				0470BE7F237B92AE0080ADB7 /* Haptic.swift in Sources */,
+				04B7634B237BAB06007FA8F7 /* PageContentViewController.swift in Sources */,
+				04B7634A237BAB06007FA8F7 /* PageViewController.swift in Sources */,
 				0470BE7C237B92AE0080ADB7 /* UITabBarController+Extensions.swift in Sources */,
 				0470BE7B237B92AE0080ADB7 /* UIView+Extensions.swift in Sources */,
 				0470BE7A237B92AE0080ADB7 /* Array+Extensions.swift in Sources */,
 				0470BE7D237B92AE0080ADB7 /* UIImage+Extensions.swift in Sources */,
 				0470BE7E237B92AE0080ADB7 /* ColorPickerView.swift in Sources */,
+				04B7634C237BAB06007FA8F7 /* PageContentDataSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
