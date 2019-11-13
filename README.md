@@ -2,6 +2,15 @@
 
 A collection of Swift helpers and utilities that I've written over the years that I think everyone could benefit from using it. This repo is constantly getting maintained and updated.
 
+## Installation
+
+### Swift Package Manager:
+Add this package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest version of this project.
+
+```
+.package(url: "https://github.com/ljw980105/JLSwiftUtilities.git", from: "x.x.x")
+```
+
 ## Extensions
 
 
@@ -50,6 +59,9 @@ A simple but effective color picker.
 <p align = "left">
     <img width = "300" height = "305" src = "Resources/ColorPicker.jpeg">
 </p>
+
+### `PageViewController`
+Simply initialize it with a few view controllers to achieve a instagram-like pager look!
 
 ## Classes
 
