@@ -35,7 +35,7 @@ open class PageContentViewController: UIViewController {
     
     /// The button will only be shown if there's no image in the data set. Vise versa, the button will be hidden if there's an image.
     public init(dataSet: PageContentDataSet) {
-        super.init(nibName: "PageContentViewController", bundle: .main)
+        super.init(nibName: "PageContentViewController", bundle: Bundle(for: type(of: self)))
         self.dataSet = dataSet
     }
     
